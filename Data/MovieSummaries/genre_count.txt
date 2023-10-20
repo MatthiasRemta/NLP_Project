@@ -1,47 +1,44 @@
 genre;count
-drama;19134
-comedy;12245
+drama;22953
+comedy;16784
+war;6756
 romance;6666
+crime;6626
 thriller;6530
-action;5868
-world;5153
-crime fiction;4275
-horror;4082
+action;6417
+horror;4644
+family;4016
+adventure;3883
 blackandwhite;3731
 indie;3668
 actionadventure;3553
-adventure;3248
-family;3219
 short;3192
-romantic drama;2572
 animation;2441
 musical;2414
 science fiction;2339
 mystery;2119
-romantic comedy;2075
 fantasy;2012
-crime thriller;1682
-war;1556
 period piece;1321
 japanese;1290
+western;1279
 comedydrama;1261
 adaptation;1225
 documentary;1213
 silent;1199
 psychological thriller;1138
 bollywood;1058
-western;1022
 chinese;998
-black comedy;834
+political;981
 lgbt;825
 teen;824
 parody;767
-family drama;766
 childrensfamily;759
 coming of age;741
+gay;735
 martial arts;706
 cult;680
 sports;672
+childrens;668
 television;665
 slasher;654
 suspense;651
@@ -49,16 +46,11 @@ biographical;625
 biography;592
 supernatural;571
 satire;532
-political drama;531
 noir;524
 slapstick;518
 melodrama;499
-childrens;412
-action thrillers;405
-crime drama;391
 bmovie;386
 superhero;369
-costume drama;367
 biopic feature;365
 history;358
 music;356
@@ -66,60 +58,219 @@ art;351
 ensemble;349
 creature;347
 spy;342
+buddy;341
 gangster;338
-buddy;325
-historical fiction;305
 anime;305
+historical fiction;305
 detective;282
 monster;281
 road;268
-gay themed;264
-sex comedy;253
 docudrama;252
-screwball comedy;246
-childrens fantasy;244
 disaster;238
 erotica;235
 zombie;234
-crime comedy;231
 filipino;230
 detective fiction;225
-gay;219
-gay interest;217
-familyoriented adventure;213
-comedy of manners;212
-horror comedy;206
 culture society;204
 epic;196
-fantasy comedy;196
-political thriller;195
 computer animation;195
-fantasy adventure;190
-courtroom drama;184
-political;176
-musical comedy;175
-domestic comedy;172
 erotic thriller;170
-comedy of errors;169
-natural horror;153
-pornographic;145
 heist;145
-action comedy;142
+pornographic;145
 animal picture;141
-marriage drama;137
-musical drama;136
 stop motion;134
 precode;130
-scifi horror;124
-adventure comedy;123
 adult;117
 christian;116
-erotic drama;112
 doomsday;112
-childhood drama;111
-historical drama;107
 experimental;107
 swashbuckler;104
 prison;102
 social issues;101
 chase;100
+surrealism;99
+alien;97
+mockumentary;97
+animated cartoon;94
+holiday;94
+slice of life story;94
+social problem;92
+americana;91
+hollywood;86
+remake;85
+dystopia;84
+combat;84
+avantgarde;83
+sexploitation;82
+caper story;80
+christmas;80
+tragedy;79
+blaxploitation;79
+absurdism;79
+wuxia;79
+propaganda;77
+time travel;77
+sword and sorcery;76
+feminist;76
+media satire;71
+dance;69
+haunted house;65
+tamil;63
+antiwar;63
+historical epic;63
+gothic;62
+jungle;62
+religious;61
+romantic fantasy;59
+grossout;58
+gross out;58
+neonoir;57
+medical fiction;56
+airplanes and airports;53
+tragicomedy;51
+boxing;51
+auto racing;50
+fairy tale;48
+stoner;46
+escape;45
+glamorized spy;45
+animated musical;43
+whodunit;43
+juvenile delinquency;42
+softcore porn;41
+rockumentary;40
+existentialism;34
+apocalyptic and postapocalyptic fiction;32
+roadshow theatrical release;32
+tollywood;32
+hip hop;31
+steampunk;30
+à clef;29
+future noir;29
+splatter;28
+samurai;27
+mythological fantasy;26
+giallo;25
+master criminal;25
+pinku eiga;24
+punk rock;23
+heavencanwait fantasies;21
+british empire;20
+backstage musical;20
+biker;20
+beach;19
+bwestern;19
+;19
+hagiography;19
+gender issues;19
+roadhorror;19
+fan;18
+dogme;17
+nature;17
+educational;16
+sword and sandal;16
+animals;15
+travel;14
+albino bias;14
+kitchen sink realism;14
+natural disaster;14
+illnesses disabilities;14
+british  wave;13
+outlaw biker;12
+malayalam;12
+cavalry;12
+ealing comedies;12
+exploitation;12
+television history;11
+concert;11
+serial;11
+archaeology;10
+extreme sports;10
+bengali;10
+psychobiddy;10
+foreign legion;10
+baseball;9
+language literature;8
+horse racing;8
+fictional;8
+essay;8
+feature;8
+reboot;8
+jukebox musical;7
+northern;7
+news;7
+mumblecore;7
+czechoslovak  wave;7
+anthology;7
+media studies;7
+archives and records;6
+kafkaesque;6
+demonic child;6
+early black;6
+environmental science;6
+mondo;5
+about gladiators;5
+outlaw;5
+libraries and librarians;5
+scifi thriller;5
+space opera;5
+cyberpunk;5
+school story;4
+instrumental music;4
+plague;4
+graphic applied arts;4
+finance investing;4
+alien invasion;4
+roadshowcarny;4
+sponsored;4
+sci fi pictures original;4
+inventions innovations;4
+humour;4
+werewolf fiction;4
+clay animation;4
+therimin music;4
+operetta;4
+comingofage;4
+goat gland;4
+business;4
+computers;4
+supermarionation;3
+singing cowboy;3
+nuclear warfare;3
+vampire;3
+latino;3
+filmopera;3
+race;3
+filmed play;3
+health fitness;3
+education;3
+bloopers candid camera;3
+bruceploitation;3
+point of view shot;3
+camp;3
+revisionist fairy tale;2
+historical documentaries;2
+journalism;2
+anthropology;2
+expressionism;2
+conspiracy fiction;2
+tokusatsu;2
+prison escape;2
+private military company;2
+beach party;2
+revenge;2
+z;2
+star vehicle;2
+homoeroticism;1
+queer;1
+silhouette animation;1
+statutory rape;1
+comdedy;1
+ninja;1
+chick flick;1
+breakdance;1
+cmovie;1
+romantic thriller;1
+patriotic;1
+linguistics;1
+neorealism;1
