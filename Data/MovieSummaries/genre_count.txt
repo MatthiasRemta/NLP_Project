@@ -1,17 +1,17 @@
 genre;count
-drama;22953
-comedy;16784
-war;6756
+drama;19406
+comedy;12574
 romance;6666
-crime;6626
 thriller;6530
-action;6417
-horror;4644
-family;4016
-adventure;3883
+war;6505
+action;5896
+crime;5146
+horror;4102
+family;3752
 blackandwhite;3731
 indie;3668
 actionadventure;3553
+adventure;3400
 short;3192
 animation;2441
 musical;2414
@@ -20,29 +20,28 @@ mystery;2119
 fantasy;2012
 period piece;1321
 japanese;1290
-western;1279
 comedydrama;1261
 adaptation;1225
 documentary;1213
 silent;1199
 psychological thriller;1138
 bollywood;1058
+western;1050
 chinese;998
-political;981
+political;828
 lgbt;825
 teen;824
 parody;767
 childrensfamily;759
 coming of age;741
-gay;735
 martial arts;706
 cult;680
 sports;672
-childrens;668
 television;665
 slasher;654
 suspense;651
 biographical;625
+childrens;611
 biography;592
 supernatural;571
 satire;532
@@ -50,7 +49,6 @@ noir;524
 slapstick;518
 melodrama;499
 bmovie;386
-superhero;369
 biopic feature;365
 history;358
 music;356
@@ -58,19 +56,21 @@ art;351
 ensemble;349
 creature;347
 spy;342
-buddy;341
 gangster;338
+buddy;330
 anime;305
 historical fiction;305
+gay;293
 detective;282
-monster;281
+monster;269
 road;268
+superhero;262
 docudrama;252
 disaster;238
 erotica;235
 zombie;234
-filipino;230
 detective fiction;225
+filipino;222
 culture society;204
 epic;196
 computer animation;195
@@ -85,12 +85,12 @@ christian;116
 doomsday;112
 experimental;107
 swashbuckler;104
-prison;102
 social issues;101
 chase;100
 surrealism;99
 alien;97
 mockumentary;97
+prison;94
 animated cartoon;94
 holiday;94
 slice of life story;94
@@ -110,13 +110,11 @@ absurdism;79
 wuxia;79
 propaganda;77
 time travel;77
-sword and sorcery;76
 feminist;76
 media satire;71
 dance;69
 haunted house;65
 tamil;63
-antiwar;63
 historical epic;63
 gothic;62
 jungle;62
@@ -126,9 +124,10 @@ grossout;58
 gross out;58
 neonoir;57
 medical fiction;56
+sword and sorcery;56
 airplanes and airports;53
-tragicomedy;51
 boxing;51
+tragicomedy;51
 auto racing;50
 fairy tale;48
 stoner;46
@@ -140,13 +139,14 @@ juvenile delinquency;42
 softcore porn;41
 rockumentary;40
 existentialism;34
+antiwar;33
 apocalyptic and postapocalyptic fiction;32
-roadshow theatrical release;32
 tollywood;32
+roadshow theatrical release;32
 hip hop;31
 steampunk;30
-à clef;29
 future noir;29
+à clef;29
 splatter;28
 samurai;27
 mythological fantasy;26
