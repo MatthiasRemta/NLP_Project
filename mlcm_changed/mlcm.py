@@ -110,15 +110,14 @@ def cm(label_true,label_pred,print_note=True):
 
     # calculating the normal confusion matrix
     divide = conf_mat.sum(axis=1, dtype='int64') 
-    for indx in range(len(divide)):
-        if divide[indx] == 0:  # To avoid division by zero
-            divide[indx] = 1
 
     normal_conf_mat = np.zeros((len(divide),len(divide)), dtype=np.float64)
     for i in range (len(divide)):
         for j in range (len(divide)):
-            normal_conf_mat[i][j] = round((float(conf_mat[i][j]) / divide[i]) \
-                                          *100)
+            if divide[i] == 0:
+                normal_conf_mat[i][j] = 0
+            else:
+                normal_conf_mat[i][j] = round((float(conf_mat[i][j]) / divide[i]) * 100)
 
     if print_note:
         print('MLCM has one extra row (NTL) and one extra column (NPL).\
@@ -204,6 +203,8 @@ def stats(conf_mat, print_binary_mat=True):
 
     # Calculating precision, recall, and F1-score for each of classes
     precision = tp/(tp+fp)
+    if np.isnan(precision).any():
+        precision = np.nan_to_num(precision)
     recall = tp/(tp+fn)
     f1_score = 2*tp/(2*tp+fn+fp)
 
@@ -272,9 +273,12 @@ def stats(conf_mat, print_binary_mat=True):
         total_weight = divide.sum()
         float_formatter = "{:.2f}".format
         for k in range(num_classes):
+
             print(sp2,sp,k,sp,float_formatter(precision[k]),sp, \
                   float_formatter(recall[k]), sp,\
                   float_formatter(f1_score[k]),sp,divide[k])
+            
+        '''
         print(sp,' NoC',sp,'There is not any data with no true-label assigned!')
 
         print('\n    micro avg',sp,float_formatter(micro_precision),sp,\
@@ -286,5 +290,5 @@ def stats(conf_mat, print_binary_mat=True):
         print(' weighted avg',sp,float_formatter(weighted_precision),sp,\
               float_formatter(weighted_recall),sp,\
               float_formatter(weighted_f1),sp,total_weight)
-
+        '''
     return one_vs_rest
