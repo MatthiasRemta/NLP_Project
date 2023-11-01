@@ -32,6 +32,3 @@ Details about the notebook contents:
    -> takes plots_genres_reduced_to_60/plots_genres_balanced
 
 4. Transformer_classification_v2
-
-
-Mentions: Cleaning_and_EDA -> Wordcloud eventuell noch einbauen
