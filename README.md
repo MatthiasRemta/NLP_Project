@@ -31,4 +31,4 @@ Details about the notebook contents:
    beinhaltet categorien zusammenfassen, balacnieren & Logistische Regression, Naive Bayes, SVM
    -> takes plots_genres_reduced_to_60/plots_genres_balanced
 
-4. Transformer_classification_v2
+4. Transformer_classification_v6
