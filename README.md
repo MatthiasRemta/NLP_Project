@@ -18,7 +18,7 @@ Details about the notebook contents:
    - Visualistion of the data (Movie summaries and genre information
 
 2. reducing_categories
-   Output: Takes plots_genres.pkl and produces plots_genres_reduced_to_60.pkl, plots_genres_balanced as well as the regarding train and test sets
+   - Output: Takes plots_genres.pkl and produces plots_genres_reduced_to_60.pkl, plots_genres_balanced as well as the regarding train and test sets
    - plots_genres_reduced_to_60 reduces the categories to 60 - 41549 entries balance of most occuring genres/least occuring genres 19406/342 = 56.74
       - reduces via TF-IDF and K-Means, throws away the least occuring categories
    - plots_genres_balanced has the same amount of categories - 19494 entries balance of most occuring genres/least occuring genres 9289/505 = 18.39
