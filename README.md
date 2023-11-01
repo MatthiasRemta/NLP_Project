@@ -7,7 +7,7 @@ Order of the notebooks provided:
 1. Data_extraction_preprocessing_EDA
 2. reducing_categories
 3. Logistic_Regression_try_balanced/Logistic_Regression_try_reduced_to_60
-4. Transformer_classification_v2
+4. Transformer_classification_v6
 
 
 Details about the notebook contents:
@@ -34,4 +34,10 @@ Details about the notebook contents:
    - saves results csv in results folder
 
 4. Transformer_classification_v6
-   - Output: Transformer model
+   - Output: Transformer model, performance metrics
+   - the notebook is optimized for usage with Google Colab. However, it should run locally as well (migh require slight adjustments).
+   - to save fine-tuned models, it is necessary to provide a HuggingFace-Token, otherwise this cell can be skipped.
+   - loads data, tokenizes it and fine-tunes DistilBert. Calculates performance metrics on a test set and saves them.
+   - already fine-tuned models are provided via HuggingFace: "matthiasr/genre_pred_model_balanced", "matthiasr/genre_pred_model_reduced". These can be loaded directly via the .from_pretrained() functionality.
+   - predictions from the models on the test set are provided via GitHub as they are time-consuming.
+   
