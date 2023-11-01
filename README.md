@@ -15,7 +15,7 @@ Details about the notebook contents:
 1. Data_extraction_preprocessing_EDA
    - Output: plots_genres.pkl and visualisations
    - Loads, preprocesses and merges the relevant data
-   - Visualistion of the data (Movie summaries and genre information
+   - Visualistion of the data (movie summaries and genre information)
 
 2. reducing_categories
    - Output: Takes plots_genres.pkl and produces plots_genres_reduced_to_60.pkl, plots_genres_balanced as well as the regarding train and test sets
