@@ -274,6 +274,7 @@ def stats(conf_mat, print_binary_mat=True):
         float_formatter = "{:.2f}".format
         for k in range(num_classes):
 
+ 
             print(sp2,sp,k,sp,float_formatter(precision[k]),sp, \
                   float_formatter(recall[k]), sp,\
                   float_formatter(f1_score[k]),sp,divide[k])
